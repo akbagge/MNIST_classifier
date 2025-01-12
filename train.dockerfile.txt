@@ -1,0 +1,23 @@
+# Base image
+FROM python:3.11-slim
+
+# Install system dependencies
+RUN apt update && \
+    apt install --no-install-recommends -y build-essential gcc && \
+    apt clean && rm -rf /var/lib/apt/lists/*
+
+# Copy necessary files into the image
+COPY requirements.txt requirements.txt
+COPY pyproject.toml pyproject.toml
+COPY src/ src/
+COPY data/ data/
+
+# Set the working directory
+WORKDIR /
+
+# Install Python dependencies
+RUN pip install -r requirements.txt --no-cache-dir
+RUN pip install . --no-deps --no-cache-dir
+
+# Define the entrypoint (train.py script)
+ENTRYPOINT ["python", "-u", "src/mnist_classifier/train.py"]

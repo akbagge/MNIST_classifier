@@ -1,0 +1,25 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-10T13:38:24.419077Z",
+  "program": "-m __main__",
+  "email": "andreaskbagge@gmail.com",
+  "root": ".",
+  "host": "AndreasKB",
+  "executable": "C:\\Users\\skate\\anaconda3\\envs\\MLO\\python.exe",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "510527533056",
+      "used": "180948733952"
+    }
+  },
+  "memory": {
+    "total": "7866073088"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  }
+}

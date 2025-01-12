@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-01-09T10:28:29.810874Z",
+  "program": "-m mnist_classifier.train",
+  "email": "andreaskbagge@gmail.com",
+  "root": "C:\\Users\\andre\\OneDrive - Danmarks Tekniske Universitet\\OneDrive_MLO\\conv_mnist_project",
+  "host": "AndreasPC",
+  "executable": "C:\\Users\\andre\\anaconda3\\envs\\MLO\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "498688061440",
+      "used": "360533356544"
+    }
+  },
+  "memory": {
+    "total": "17113423872"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2060 SUPER",
+      "memoryTotal": "8589934592",
+      "cudaCores": 2176,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

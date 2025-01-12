@@ -1,0 +1,7 @@
+lr: 0.001
+batch_size: 32
+epochs: 10
+device: auto
+data_dir: data/processed
+save_model_path: models/model.pth
+save_figure_path: reports/figures/training_statistics.png

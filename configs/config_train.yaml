@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+
+lr: 1e-3
+batch_size: 32
+epochs: 10
+device: auto
+data_dir: data/processed  # Relative path to your data directory
+save_model_path: models/model.pth
+save_figure_path: reports/figures/training_statistics.png
